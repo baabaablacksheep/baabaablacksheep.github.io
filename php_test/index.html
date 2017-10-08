@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="UTF-8">
+	<!-- Preloader Css template-->
+	<link href="css/preloader.css" rel="stylesheet">
+
+</head>
 <body>
-
-<h1>My first PHP page</h1>
-
-<?php
-echo "Hello World!";
-?>
-
-</body>
+	<div id="container" width="100%" height="70%">
+		<img id="img_logo" src="img/SAIFA_logo.png" alt="SAIFA LOGO" width="220px" height="220px"/>
+		<div id="canvas_loader">
+			<canvas id="my_canvas" width="250px" height="250px"></canvas>
+		</div>
+	</div>
+	<div id="welcome_text">WELCOME</div>
+	<div id="percent"></div>
+	
+	
+	<script src="js/preloader.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>  
 </html>

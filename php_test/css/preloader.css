@@ -1,0 +1,75 @@
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+  }
+
+#my_canvas{
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#img_logo {
+	padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: -6.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	-webkit-transition: all 2s ease; 
+	-moz-transition: all 2s ease; 
+	-ms-transition: all 2s ease; 
+	transition: all 2s ease; 
+}
+
+#img_logo:hover { 
+width: 500px; 
+height: 500px; 
+}
+#percent{
+	position:absolute;
+	top:75%;
+	left:47.5%;
+	font-size:36px;
+	text-align:center;
+
+}
+#welcome_text{
+	display:none;
+	font-size:100px;
+	font-family:'AR JULIAN';
+	color:#FFFFFF;
+	padding: 0;
+	position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	text-align:center;
+}
